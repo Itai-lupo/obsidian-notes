@@ -1,7 +1,0 @@
-﻿---
-BasedOnStyle: Microsoft
-IndentCaseLabels: 'true'
-NamespaceIndentation: Inner
-UseTab: Always
-
-...
