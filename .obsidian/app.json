@@ -1,0 +1,17 @@
+{
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "spellcheckLanguages": null,
+  "newFileLocation": "current",
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showUnsupportedFiles": true
+}
