@@ -51,12 +51,12 @@
     null,
     "//Omnivore/Omnivore/2023-10-17",
     "//Daily Notes/Daily Notes/2024/Daily Notes/2024/04-April",
-    "//Daily Notes,//Daily Notes/Daily Notes/2024/Daily Notes/2024/04-April",
     "//Bins",
-    "/",
+    "//Daily Notes,//Daily Notes/Daily Notes/2024/Daily Notes/2024/12-December",
     "//Daily Notes",
     "//Daily Notes/Daily Notes/2024",
-    "//Daily Notes,//Daily Notes/Daily Notes/2024/Daily Notes/2024/12-December"
+    "//Daily Notes,//Daily Notes/Daily Notes/2024/Daily Notes/2024/04-April",
+    "/"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

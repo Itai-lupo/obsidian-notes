@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1b90c9a9edbdc0f",
+            "id": "650886798bdf3f20",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -21,71 +21,23 @@
                   "title": "December 16, 2024",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Daily Notes/2024/12-December/December 16, 2024.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"December 16, 2024\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":29},\"to\":{\"line\":14,\"ch\":29}},\"scroll\":7}"
-                },
-                {
-                  "title": "Daily Note Template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Bins/Templates/Daily Note Template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Daily Note Template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":27},\"to\":{\"line\":8,\"ch\":27}},\"scroll\":7}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":7}"
                 },
                 {
                   "title": "April 06, 2024",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Daily Notes/2024/04-April/April 06, 2024.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"April 06, 2024\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Daily Note Template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Bins/Templates/Daily Note Template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Daily Note Template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Templates",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"mk-space\",\"state\":{\"path\":\"Bins/Templates\"},\"icon\":\"lucide-file\",\"title\":\"Templates\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Bins",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"mk-space\",\"state\":{\"path\":\"Bins\"},\"icon\":\"lucide-file\",\"title\":\"Bins\"}",
-                  "eState": "{}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":6},\"to\":{\"line\":8,\"ch\":6}},\"scroll\":22.309842041312272}"
                 }
               ]
             },
             "state": {
-              "type": "diff-view",
+              "type": "excalidraw",
               "state": {
-                "file": ".obsidian/plugins/breadcrumbs/manifest.json",
-                "staged": false
+                "file": "excalibrain.md"
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (manifest.json)"
-            }
-          },
-          {
-            "id": "650886798bdf3f20",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2024/04-April/April 06, 2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "April 06, 2024"
+              "icon": "excalidraw-icon",
+              "title": "excalibrain"
             }
           }
         ]
@@ -226,6 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "excalibrain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for excalibrain"
             }
           },
           {
@@ -253,11 +206,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "excalibrain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from excalibrain"
             }
           },
           {
@@ -296,9 +250,11 @@
             },
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "excalibrain.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of excalibrain"
             }
           },
           {
@@ -315,9 +271,11 @@
             },
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "excalibrain.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for excalibrain"
             }
           },
           {
@@ -421,7 +379,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -449,12 +407,12 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "a1b90c9a9edbdc0f",
+  "active": "650886798bdf3f20",
   "lastOpenFiles": [
     "Daily Notes/2024/12-December/December 16, 2024.md",
+    "Daily Notes/2024/04-April/April 06, 2024.md",
     "Bins/Templates/Daily Note Template.md",
     "Daily Notes/2024/12-December",
-    "Daily Notes/2024/04-April/April 06, 2024.md",
     "Omnivore/2023-10-17/Relational Databases.md",
     "Omnivore/2023-10-17/Advanced HYPRLAND and QTILE setup with my dotfiles 2.3. NEW rofi layouts, clipboard manager & MORE.md",
     "Omnivore/2023-10-17/A Guide Through The Linux Sound API Jungle.md",
