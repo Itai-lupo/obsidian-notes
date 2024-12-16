@@ -1,0 +1,288 @@
+---
+id: 1bd4fc98-6d0e-11ee-981a-5b04ffe4b2a2
+title: 'ziontee113/neo-minimap: Plugin for Neovim that lets you create your own "minimap" from Treesitter Queries or Vim Regex.'
+tags:
+  - nvim
+  - programing
+  - text_editors
+  - tools_to_use
+date: 2023-10-17 19:56:25
+words_count: 993
+state: INBOX
+---
+
+# ziontee113/neo-minimap: Plugin for Neovim that lets you create your own "minimap" from Treesitter Queries or Vim Regex. by 
+## Table of contents
+```dataviewjs 
+dv.view('/Bins/js/toc', 1) 
+```
+
+
+## description
+>[!summary] 
+> Plugin for Neovim that lets you create your own &quot;minimap&quot; from Treesitter Queries or Vim Regex. - ziontee113/neo-minimap: Plugin for Neovim that lets you create your own &quot...
+
+
+# content
+```dataviewjs 
+dv.view('/Bins/js/remove_html',  ["# content",  "# links"] ) 
+```
+## [Neo-Minimap](#neo-minimap)
+
+Plugin for Neovim that lets you create your own _"minimap"_ from _Treesitter Queries_ or _Vim Regex_.
+
+lua.mp4 
+
+## [Overview & Setup Guide](#overview--setup-guide)
+
+[![neominimap](https://proxy-prod.omnivore-image-cache.app/0x0,s2cd7zCZL6ICro3jlSfgkjj-P-Ks7fVlTg3nziFVQ33c/https://user-images.githubusercontent.com/102876811/196762594-8eadeef9-97e9-4c8c-94fb-d4071b698264.png)](https://youtu.be/vNyQBWfSh7c)
+
+You can watch Overview & Setup Guide on [Youtube](https://youtu.be/vNyQBWfSh7c)
+
+## [New Syntax](#new-syntax)
+
+-- for shorthand usage
+local nm = require("neo-minimap")
+
+-- will reload your neo-minimap config file on save
+-- works only when you have only 1 neo-minimap config file
+nm.source_on_save("/path/to/your/neo-minimap/config-file") -- optional
+
+nm.set({"keymap1", "keymap2"}, { "*.your_file_extension", "your_autocmd_pattern" }, {
+     events = { "BufEnter" },
+
+     -- lua table, values inside can be type `string` or `number`
+     -- accepts multiple treesitter queries, corresponse to each keymap,
+     -- if you press "keymap1", minimap will start with first query,
+     -- if you press "keymap2", minimap will start with second query,
+     -- you can have empty query table option if you want to use regex only
+    query = {
+            [[
+        ;; query
+        ((function_declaration) @cap)
+        ((assignment_statement(expression_list((function_definition) @cap))))
+        ]], -- first query
+            [[
+        ;; query
+        ((function_declaration) @cap)
+        ((assignment_statement(expression_list((function_definition) @cap))))
+        ((for_statement) @cap)
+        ]], -- second query
+
+        1, -- if passed in a number, a query with that index will take it's place
+           -- in this case, instead of copying the entire first query,
+           -- we use `1` to point to it.
+    },
+
+    -- optional
+	regex = { -- lua table, values inside can be type `table` or `number`
+		{ [[--.*]], [[===.*===]] }, -- first set of regexes
+		{}, -- no regex
+		1, -- acts as first regex set
+	},
+    -- you can have empty regex option if you want to use Treesitter queries only
+
+    -- optional
+    search_patterns = {
+		{ "vim_regex", "<C-j>", true }, -- jump to the next instance of "vim_regex"
+		{ "vim_regex", "<C-k>", false }, -- jump to the previous instance of "vim_regex"
+	},
+
+    auto_jump = true, -- optional, defaults to `true`, auto jump when move cursor
+
+    -- other options
+    width = 44, -- optional, defaults to 44, width of the minimap
+    height = 12, -- optional, defaults to 12, height of the minimap
+    hl_group = "my_hl_group", -- highlight group of virtual text, optional, defaults to "DiagnosticWarn"
+
+    open_win_opts = {}, -- optional, for setting custom `nvim_open_win` options
+    win_opts = {}, -- optional, for setting custom `nvim_win_set_option` options
+
+    -- change minimap's height with <C-h>
+    -- this means default minimap height is 12
+    -- minimap height will change to 36 after pressing <C-h>
+    height_toggle = { 12, 36 },
+
+    disable_indentation = false, -- if `true`, will remove any white space / tab at the start of the results.
+
+    -- Replace the placeholder called {cursorword} with the word the cursor is current on
+    -- if `false` the keyword {cursorword} will not be replaced in query.
+    replace_cursorword_attribute = true,
+    -- replace the default highlights by default these values are linked
+	override_default_hl = {
+		NeoMinimapCursorLine = { link = "CursorLine" },
+		NeoMinimapBorder = { link = "FloatBorder" },
+		NeoMinimapBackground = { link = "Normal" },
+		NeoMinimapLineNr = { link = "LineNr" },
+	},
+})
+
+[Here's the config I use myself](https://github.com/ziontee113/ziontee113-neovim-config/blob/master/lua/plugins/neo-minimap/init.lua)
+
+## [Minimap Specific Mappings](#minimap-specific-mappings)
+
+* `a` \- Toggle `auto_jump`
+* `c` \- Toggle `conceallevel`
+* `q` / `Esc` \- close the Minimap
+* `h` / `t` \- toggle Treesitter highlighting for Minimap
+* `<C-h>` \- toggle Minimap's height, depends on `height_toggle` option
+* `i` \- **switch to previous query && set of regexes**
+* `o` \- **switch to next query && set of regexes**
+* `<C-s>` \- open Minimap in vertical split
+* `<C-v>` \- open the result in vertical split
+* `l` \- jump to location, (depends on `auto_jump`), if `true` doesn't close Minimap, if `false` do.
+* `Enter` \- jump to location, closes Minimap.
+
+## [The setup\_default() function](#the-setup%5Fdefault-function)
+
+You can call `nm.setup_default({opts})` to set up default options.
+
+nm.setup_defaults({
+	height_toggle = { 12, 36 },
+})
+
+Old Syntax 
+
+## [Syntax](#syntax)
+
+local nm = require("neo-minimap")
+
+nm.set("keymap", "filetype", { -- `:set filetype?` if you don't know your desired filetype
+	query = [[
+;; query
+((query_goes_here) @cap)
+  ]],
+
+    regex = {
+        "vim_regex_goes_here",
+        [[another_vim_regex]],
+    }, -- vim regex option, for when you can't or don't want to use Treesitter Queries
+
+	search_patterns = { -- optional
+		{ "/search", "search_mapping", true }, -- true means search forward
+		{ "/search", "search_mapping", false }, -- false means search backwards
+	},
+	width = 44, -- optional, defaults to 44, width of the minimap
+	height = 12, -- optional, defaults to 12, height of the minimap
+	hl_group = "my_hl_group", -- optional, defaults to "LineNr"
+	auto_jump = true, -- optional, defaults to `true`, auto jump when move cursor
+
+    open_win_opts = {}, -- optional, for setting `nvim_open_win` options
+    win_opts = {}, -- optional, for setting `nvim_win_set_option` options
+})
+
+## [Example](#example)
+
+Example for Lua:
+
+local nm = require("neo-minimap") -- for shorthand use later
+
+-- Lua
+nm.set({"zi", "zo"}, "lua", { -- press `zi` or `zo` to open the minimap, in `lua` files
+	query = [[
+;; query
+((for_statement) @cap) ;; matches for loops
+((function_call (dot_index_expression) @field (#eq? @field "vim.keymap.set")) @cap) ;; matches vim.keymap.set
+((function_declaration) @cap) ;; matches function declarations
+  ]], [[
+;; query example to find all function calls from the object that the cursor it at.
+;; replace_cursorword_attribute need to be enabled (default) to replace the word at the cursor with the placeholder {cursorword}.
+((function_declaration name: ((identifier) @name (#eq? @name "{cursorword}"))) @cap)
+((function_call name: ((identifier) @name (#eq? @name "{cursorword}"))) @cap)
+((dot_index_expression field: ((identifier) @name (#eq? @name "{cursorword}"))) @cap)
+((function_call name: (dot_index_expression table: (identifier) @name (#eq? @name "{cursorword}"))) @cap)
+  ]],
+	regex = { [[\.insert]] }, -- 1 vim regex, matches lines with `.insert` pattern
+	search_patterns = {
+		{ "function", "<C-j>", true }, -- jump to the next 'function' (Vim pattern)
+		{ "function", "<C-k>", false }, -- jump to the previous 'function' (Vim pattern)
+		{ "keymap", "<A-j>", true }, -- jump to the next 'keymap' (Vim pattern)
+		{ "keymap", "<A-k>", false }, -- jump to the previous 'keymap' (Vim pattern)
+	},
+})
+
+Example for Typescript:
+
+local nm = require("neo-minimap") -- for shorthand use later
+
+-- TSX
+nm.set("zi", "typescriptreact", {  -- press `zi` to open the minimap, in `typescriptreact` files
+	query = [[
+;; query
+((function_declaration) @cap) ;; matches function declarations
+((arrow_function) @cap) ;; matches arrow functions
+((identifier) @cap (#vim-match? @cap "^use.*")) ;; matches hooks (useState, useEffect, use***, etc...)
+  ]],
+})
+
+tsx.mp4 
+
+## [Minimap Specific Mappings](#minimap-specific-mappings-1)
+
+* `a` \- Toggle `auto_jump`
+* `c` \- Toggle `conceallevel`
+* `q` / `Esc` \- close the Minimap
+* `h` / `t` \- toggle Treesitter highlighting for Minimap
+* `l` \- jump to location (for when `auto_jump` is `false`), doesn't close Minimap.
+* `Enter` \- jump to location, closes Minimap.
+
+## [The .browse() method](#the-browse-method)
+
+You can also use `nm.browse()` method if you want more control over how you define your keymaps.
+
+Syntax:
+
+Example:
+
+local nm = require("neo-minimap")
+
+vim.keymap.set("n", "your_keymap", function()
+    nm.browse({
+        query = [[
+    ;; query
+    ((for_statement) @cap)
+    ((function_declaration) @cap)
+      ]],
+        search_patterns = {
+            { "function", "<C-j>", true },
+            { "function", "<C-k>", false },
+        },
+        width = 44,
+        height = 12,
+    })
+end)
+
+## [Custom Events](#custom-events)
+
+Example:
+
+nm.set("zo", "*/snippets/*.lua", { -- "mapping", "pattern"
+	regex = { [[--.*\w]] },
+	events = { "BufEnter" }, -- events
+})
+
+## [Available Highlight Groups](#available-highlight-groups)
+
+| Highlight Group      | Purpose                                  |
+| -------------------- | ---------------------------------------- |
+| NeoMinimapLineNr     | highlights for the Line Number           |
+| NeoMinimapCursorLine | highlights the current line background   |
+| NeoMinimapBorder     | highlights the border for the window     |
+| NeoMinimapBackground | highlights the background for the window |
+
+## [Feedback](#feedback)
+
+If you run into issues or come up with an awesome idea, please feel free to open an issue or PR.
+
+## [Credits](#credits)
+
+* [@desdic](https://github.com/desdic) for PR [#14](https://github.com/ziontee113/neo-minimap/pull/14).
+* [@TheSafdarAwan](https://github.com/TheSafdarAwan) for PR [#22](https://github.com/ziontee113/neo-minimap/pull/22).
+
+
+
+# links
+[Read on Omnivore](https://omnivore.app/me/ziontee-113-neo-minimap-plugin-for-neovim-that-lets-you-create-y-18b3e9135b5)
+[Read Original](https://github.com/ziontee113/neo-minimap)
+
+<iframe src="https://github.com/ziontee113/neo-minimap"  width="800" height="500"></iframe>

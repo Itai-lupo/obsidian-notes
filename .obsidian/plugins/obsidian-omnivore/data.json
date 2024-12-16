@@ -1,0 +1,40 @@
+{
+  "dateHighlightedFormat": "yyyy-MM-dd HH:mm:ss",
+  "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
+  "apiKey": "b7778a01-967b-40a3-ba95-89f159e5abb9",
+  "filter": "ALL",
+  "syncAt": "2024-12-16T18:36:14",
+  "customQuery": "in:all",
+  "template": "# {{{title}}} by {{{author}}}\n## Table of contents\n```dataviewjs \ndv.view('/Bins/js/toc', 1) \n```\n\n\n## description\n>[!summary] \n> {{{description}}}\n\n{{#note}}\n## note\n>[!note] \n>   {{{note}}}\n{{/note}}\n\n# content\n```dataviewjs \ndv.view('/Bins/js/remove_html',  [\"# content\",  \"# links\"] ) \n```\n{{{content}}}\n\n\n{{#highlights.length}}\n# Highlights\n\n{{#highlights}}\n> [!cite]- {{{text}}} \n{{#note}}\n>>[!note] \n>>   {{{note}}}\n{{/note}}\n> \n  {{#labels}} #{{name}} {{/labels}} [link to]({{{highlightUrl}}})\n\n{{/highlights}}\n{{/highlights.length}}\n\n# links\n[Read on Omnivore]({{{omnivoreUrl}}})\n[Read Original]({{{originalUrl}}})\n\n<iframe src=\"{{{originalUrl}}}\"  width=\"800\" height=\"500\"></iframe>\n",
+  "highlightOrder": "LOCATION",
+  "syncing": false,
+  "folder": "Omnivore/{{{date}}}",
+  "folderDateFormat": "yyyy-MM-dd",
+  "endpoint": "https://api-prod.omnivore.app/api/graphql",
+  "filename": "{{{title}}}",
+  "filenameDateFormat": "yyyy-MM-dd",
+  "attachmentFolder": "Omnivore/attachments",
+  "version": "1.10.4",
+  "isSingleFile": false,
+  "frequency": 1440,
+  "intervalId": 19648,
+  "frontMatterVariables": [
+    "title",
+    "author",
+    "tags",
+    "date_saved::date",
+    "date_published",
+    "words_count",
+    "state"
+  ],
+  "frontMatterTemplate": "",
+  "syncOnStart": true,
+  "enableHighlightColorRender": false,
+  "highlightManagerId": "omni",
+  "highlightColorMapping": {
+    "yellow": "#fff3a3",
+    "red": "#ff5582",
+    "blue": "#adccff",
+    "green": "#bbfabb"
+  }
+}

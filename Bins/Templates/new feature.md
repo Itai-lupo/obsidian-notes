@@ -14,6 +14,12 @@ Git commit:
 Version: 0
 sticker: vault//Bins/icons/candy-icons/apps/scalable/thedarkmod.svg
 ---
+# <%tp.file.name() %>
+## Table of contents
+
+```dataviewjs 
+dv.view('/Bins/js/toc', 1) 
+```
 
 ## **feature specification** 
 *short description of the feature*

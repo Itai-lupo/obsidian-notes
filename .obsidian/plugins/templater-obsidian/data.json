@@ -15,11 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "research notes /vim/features",
+      "folder": "**/features/",
       "template": "Bins/Templates/new feature.md"
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
   "startup_templates": [
     ""

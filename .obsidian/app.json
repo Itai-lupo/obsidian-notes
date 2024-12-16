@@ -13,5 +13,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": false,
+  "attachmentFolderPath": "./resources"
 }

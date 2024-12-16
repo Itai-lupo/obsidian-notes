@@ -142,11 +142,6 @@
                 "operator": "contains",
                 "enabled": true,
                 "value": "features/"
-              },
-              {
-                "field": "kanban-plugin",
-                "operator": "is-empty",
-                "enabled": true
               }
             ]
           },
@@ -303,17 +298,164 @@
       ],
       "id": "6a48db1a-5f2e-4b87-8113-40d91ce36751",
       "name": "neo vim"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Omnivore",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "id": {
+                "hide": true
+              },
+              "words_count": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "state",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "721592cc-46f4-4c45-89a5-8ef9ce8fb770",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "state"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1ef411dd-e587-411b-a54a-d49456afcf41",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "date_published": {
+                "hide": true
+              },
+              "id": {
+                "hide": true
+              },
+              "tags": {
+                "hide": false
+              },
+              "title": {
+                "hide": true
+              },
+              "words_count": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "state",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "bfed7422-7b34-4425-a8a1-e81328930135",
+          "name": "Table 1",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "",
+            "fitStyle": "cover",
+            "includeFields": [
+              "tags",
+              "state"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3c4dae93-fe40-4974-8332-c2125d76ff70",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "b05a1472-7dc1-4939-8b21-9f62deaa7d1c",
+      "name": "omnivore"
     }
   ],
+  "archives": [],
   "preferences": {
     "projectSizeLimit": 1000,
     "frontmatter": {
       "quoteStrings": "PLAIN"
     },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
     "commands": [
       {
         "project": "6a48db1a-5f2e-4b87-8113-40d91ce36751"
       }
-    ]
+    ],
+    "linkBehavior": "open-editor"
   }
 }

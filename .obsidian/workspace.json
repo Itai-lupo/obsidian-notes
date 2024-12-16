@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "afa8bad391bd04cf",
+        "id": "2ff94f188fc30d24",
         "type": "tabs",
         "children": [
           {
-            "id": "77ceb670407bb871",
+            "id": "a1b90c9a9edbdc0f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,125 +18,74 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "file navigation",
+                  "title": "December 16, 2024",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"research notes /vim/features/file navigation.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":14}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Daily Notes/2024/12-December/December 16, 2024.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"December 16, 2024\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":29},\"to\":{\"line\":14,\"ch\":29}},\"scroll\":7}"
                 },
                 {
-                  "title": "September 04, 2023",
+                  "title": "Daily Note Template",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Daily Notes/2023/09-September/September 04, 2023.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Bins/Templates/Daily Note Template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Daily Note Template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":27},\"to\":{\"line\":8,\"ch\":27}},\"scroll\":7}"
+                },
+                {
+                  "title": "April 06, 2024",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Daily Notes/2024/04-April/April 06, 2024.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"April 06, 2024\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Daily Note Template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Bins/Templates/Daily Note Template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Daily Note Template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":6}"
+                },
+                {
+                  "title": "Templates",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"mk-space\",\"state\":{\"path\":\"Bins/Templates\"},\"icon\":\"lucide-file\",\"title\":\"Templates\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Bins",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"mk-space\",\"state\":{\"path\":\"Bins\"},\"icon\":\"lucide-file\",\"title\":\"Bins\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/plugins/breadcrumbs/manifest.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (manifest.json)"
+            }
+          },
+          {
+            "id": "650886798bdf3f20",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research notes /vim/features/vim windows nav.md",
+                "file": "Daily Notes/2024/04-April/April 06, 2024.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "eed752c66742d8f8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Projects",
-                  "icon": "layout",
-                  "state": "{\"type\":\"obsidian-projects\",\"state\":{}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "research notes /vim/features/vim workspace.md"
-              }
-            }
-          },
-          {
-            "id": "a8606c6b76121dd5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "obsidian-projects",
-              "state": {}
-            }
-          },
-          {
-            "id": "5af69b1fb2291e0d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "error list",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"research notes /vim/features/error list.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":0},\"to\":{\"line\":72,\"ch\":0}},\"scroll\":14}"
-                },
-                {
-                  "title": "C++ Coding with Neovim - Prateek Raman - CppCon 2022",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"research notes /vim/C++ Coding with Neovim - Prateek Raman - CppCon 2022.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4}"
-                },
-                {
-                  "title": " 0 to LSP : Neovim RC From Scratch",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"research notes /vim/ 0 to LSP : Neovim RC From Scratch.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":140.69933755567777}"
-                },
-                {
-                  "title": "C++ Coding with Neovim - Prateek Raman - CppCon 2022",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"research notes /vim/C++ Coding with Neovim - Prateek Raman - CppCon 2022.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4.979295460569796}"
-                },
-                {
-                  "title": "lsp",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"research notes /vim/features/lsp.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
-                },
-                {
-                  "title": "error list",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"research notes /vim/features/error list.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":14}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "research notes /vim/features/lsp.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "April 06, 2024"
             }
           }
         ]
@@ -167,13 +116,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "itag:#set",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -190,24 +141,9 @@
             },
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "98f990d585235495",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -226,15 +162,46 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cd6341a17e37f96b",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d94d203fdc7ebf75",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 275.5
   },
   "right": {
     "id": "e15d917997440e82",
@@ -259,7 +226,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "research notes /vim/features/vim windows nav.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +233,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -285,10 +253,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "research notes /vim/features/vim windows nav.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -308,7 +277,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -325,111 +296,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "research notes /vim/features/vim windows nav.md"
-              }
-            }
-          },
-          {
-            "id": "81dc582a2bca71f0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "fc67709e5c3baa16",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "08b1165d9edeaede",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "91c307b32498e5b0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "8135b6803484c042",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "68ed4025e424e130",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -446,17 +315,117 @@
             },
             "state": {
               "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "ddb4a90a48d0d6e0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
               "state": {
-                "file": "research notes /vim/features/vim windows nav.md"
-              }
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4d9e8611208dd378",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "447a9fd3356cb882",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "dce25a96f82aff39",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "a353fcb621ec96e8",
+            "type": "leaf",
+            "state": {
+              "type": "make-context-view",
+              "state": {},
+              "icon": "component",
+              "title": "Explorer"
+            }
+          },
+          {
+            "id": "1c6a5fb7989261e4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 792.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -467,63 +436,67 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
       "obsidian-projects:Open projects": false,
       "juggl:Juggl global graph": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-omnivore:Omnivore": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "77ceb670407bb871",
+  "active": "a1b90c9a9edbdc0f",
   "lastOpenFiles": [
-    "research notes /vim/nvim/lua/plugins/tab_bar/config.lua~",
-    "Pasted image 20230916194036.png",
-    "Pasted image 20230916194003.png",
-    "research notes /vim/nvim/lua/plugins/tab_bar/keymap.lua",
-    "research notes /vim/nvim/lua/plugins/tab_bar/init.lua",
-    "research notes /vim/nvim/lua/plugins/tab_bar/config.lua",
-    "research notes /vim/nvim/lua/plugins/tab_bar",
-    "research notes /vim/features/file navigation.md",
-    "research notes /vim/features/vim windows nav.md",
-    "research notes /vim/features/vim workspace.md",
-    "research notes /vim/features/lsp.md",
-    "Daily Notes/2023/09-September/September 17, 2023.md",
-    "Daily Notes/2023/09-September/September 16, 2023.md",
-    "Daily Notes/2023/09-September/September 04, 2023.md",
-    "research notes /vim/features/error list.md",
-    "research notes /vim/C++ Coding with Neovim - Prateek Raman - CppCon 2022.md",
-    "research notes /vim/ 0 to LSP : Neovim RC From Scratch.md",
-    "Daily Notes/2023/09-September/September 10, 2023.md",
-    "Daily Notes/2023/09-September/September 09, 2023.md",
+    "Daily Notes/2024/12-December/December 16, 2024.md",
     "Bins/Templates/Daily Note Template.md",
-    "Daily Notes/2023/09-September/September 08, 2023.md",
-    "research notes /vim/features/custom them.md",
-    "research notes /vim/features/color scheme.md",
-    "excalibrain.md",
-    "research notes /vim/features/code refactor.md",
-    "Excalidraw/Excalidraw.md",
-    "Excalidraw/Untitled mindmap.md",
-    "Excalidraw/Untitled mindmap 1.md",
-    "Excalidraw/Drawing 2023-09-08 20.34.15.excalidraw.md",
-    "research notes /Untitled mindmap.md",
-    "Bins/Templates/new feature.md",
-    "Daily Notes/2023/09-September/September 07, 2023.md",
-    "research notes /vim/features/Untitled Diagram.svg",
-    "research notes /vim/resources/C++ Coding with Neovim - Prateek Raman - CppCon 2022.pdf",
-    "research notes /vim/nvim/lua/plugins/cmp/config.lua~",
-    "Daily Notes/2023/09-September",
-    "research notes /vim/nvim/lua/plugins/lsp/cmp.lua",
-    "research notes /vim/nvim/lua/plugins/lsp/lspsaga.lua",
-    "research notes /vim/nvim/lua/plugins/null_ls/mason.lua",
-    "Bins/icons/candy-icons/apps/scalable/zotero.svg",
-    "Bins/icons/candy-icons/apps/scalable/zeal.svg",
-    "Bins/icons/candy-icons/apps/scalable/yuzu.svg",
-    "Bins/icons/candy-icons/apps/scalable/yuzu-ea.svg",
-    "Bins/icons/candy-icons/apps/scalable/yuna.svg",
-    "Bins/icons/candy-icons/apps/scalable/youtube.svg",
-    "Bins/icons/candy-icons/apps/scalable/youtube-music.svg",
+    "Daily Notes/2024/12-December",
+    "Daily Notes/2024/04-April/April 06, 2024.md",
+    "Omnivore/2023-10-17/Relational Databases.md",
+    "Omnivore/2023-10-17/Advanced HYPRLAND and QTILE setup with my dotfiles 2.3. NEW rofi layouts, clipboard manager & MORE.md",
+    "Omnivore/2023-10-17/A Guide Through The Linux Sound API Jungle.md",
+    "Omnivore/2023-10-17/2023-10-17.md",
+    "projects/tmux/full tmux set up notes.md",
+    "Tags",
+    "projects/tmux/tmux.md",
+    "projects/tmux/tmux setup.md",
+    "projects/tmux/tmux config.md",
+    "projects/nvim/modules/lsp.md",
+    "projects/nvim/resources/plugins file structure.md",
+    "projects/nvim/state report 1.md",
+    "projects/nvim/C++ Coding with Neovim - Prateek Raman - CppCon 2022.md",
+    "projects/nvim/ 0 to LSP : Neovim RC From Scratch.md",
+    "projects/new tale/modules/v0.1/windows api.md",
+    "projects/new tale/modules/v0.1/render api.md",
+    "projects/new tale/CDR.md",
+    "projects/new tale/modules ideas.md",
+    "projects/new tale/logger/blocking io Coroutines.md",
+    "projects/new tale/logger/async lib.md",
+    "projects/new tale/ipc libs/shared memory pool.md",
+    "Omnivore/2024-12-16/C++ Exceptions for Smaller Firmware - Khalil Estell - CppCon 2024.md",
+    "Omnivore/2024-12-16",
+    "Omnivore/2024-12-12/Beginner’s Guide to 3D Printing Part 2- Bed Leveling, Slicer Settings, and First Print - DigiKey.md",
+    "Omnivore/2024-12-12",
+    "Omnivore/2024-10-20/Learn C by example- How to context switch without threading library (makecontext, swapcontext).md",
+    "Omnivore/2024-10-20",
+    "Omnivore/2024-08-28",
+    "Omnivore/2024-08-20",
+    "Omnivore/2024-06-17",
+    "Omnivore/2024-06-12",
+    "Omnivore/2024-05-29",
+    "projects/new tale/ipc libs/shared memory pool design.svg",
+    "projects/new tale/logger/async lib design.svg",
+    "projects/logger/Untitled Diagram.svg",
+    "projects/nvim/resources/plugins setup pseudo code.svg",
+    "wiki/nvim/plugins/resources/Pasted image 20231106174633.png",
+    "wiki/nvim/lua api/resources/Pasted image 20231028040547.png",
+    "Bins/icons/candy-icons/places/48/folder-documents.svg",
+    "Bins/icons/candy-icons/preferences/scalable/preferences.svg",
+    "Bins/icons/candy-icons/preferences/scalable/preferences-system-windows.svg",
+    "Bins/icons/candy-icons/preferences/scalable/preferences-system-windows-actions.svg",
     "research notes /vim/Untitled.canvas"
   ]
 }

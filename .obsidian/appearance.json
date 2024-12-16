@@ -1,6 +1,10 @@
 {
   "accentColor": "",
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "nativeMenus": true,
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Obsidianite",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "custom-admonitions.0b87eb"
+  ]
 }
